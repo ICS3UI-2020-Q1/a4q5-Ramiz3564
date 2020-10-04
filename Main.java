@@ -1,6 +1,7 @@
+ import java.util.Scanner;
 /**
- *
- * @author 
+ *This program uses a positive integer and starts with that integer to print out hailstone sequence 
+ * @author Zach Ramirez 
  */
 public class Main {
 
@@ -9,7 +10,13 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
+    //create a scanner for user input 
+    Scanner input = new Scanner(System.in); 
+    //ask user for positive integer 
+    System.out.println("please enter a positive integer to see the hailstone sequence");
+
+    //pre loop code 
+    int integer = 
     
   }
 }
